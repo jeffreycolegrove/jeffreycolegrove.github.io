@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+<meta charset="UTF-8">
+
+<!--Responsive-->
+<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<title>Covered</title>
+
+<!--Stylesheets-->
+
+<link rel="stylesheet" href="finalindex.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    
+<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+        <script type="text/javascript">
+		$(function() {  
+    var pull        = $('#pull');  
+        menu        = $('nav ul');  
+        menuHeight  = menu.height();  
+  
+    $(pull).on('click', function(e) {  
+        e.preventDefault();  
+        menu.slideToggle();  
+    });  
+});  
+
+$(window).resize(function(){  
+    var w = $(window).width();  
+    if(w > 320 && menu.is(':hidden')) {  
+        menu.removeAttr('style');  
+    }  
+}); 
+
+        </script>
+</head>
+
+
+<body>
+<header>
+<h1>Covered</h1>
+</header>
+<div id= "page">
+<nav class="clearfix">
+		<a href="#" id="pull">Menu</a>    
+		<ul class="clearfix">  
+			<li><a href="finalindex.html">Home</a></li>  
+			<li><a href="finalabout.html">About</a></li>  
+			<li><a href="finalart.html">Artwork</a></li>  
+			<li><a href="finalnews.html">News</a></li>  
+			<li><a href="finalcontact.html">Contact</a></li>  
+			<li><a href="finalcredits.html">Credits</a></li>    
+		</ul>  
+	</nav>  
+
+</div>
+
+
+
+
+<address>
+<br>
+	
+    <a href="mailto:jeffrey.colegrove81@qmail.cuny.edu">jeffrey.colegrove81@qmail.cuny.edu</a>
+</address>	
+<p>Please feel free to send questions and inquiries.</p>
+
+
+
+        
+<footer>
+
+	<p>&copy; 2016</p>
+</footer>
+
+</body>
+</html>

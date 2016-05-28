@@ -1,0 +1,19 @@
+/* CSS Document */
+
+
+
+body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	}
+	
+#page {
+	margin: 100px;
+	font-size:20px;
+	
+}
+	
+
+h1 {
+	text-align:center;
+	background-color:#9CFFF2;
+}
